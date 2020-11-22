@@ -1,0 +1,21 @@
+programa
+{
+	/* Fornite é um jogo tipo Truck Simulator. Nesse jogo é
+possível comprar itens para o seu personagem.
+Escreva um algoritmo que some o valor dos dois
+itens que aparecem nas figuras ao lado e mostre
+*/
+	
+	funcao inicio()
+	{
+		inteiro preco_armas reais
+		inteiro preco_skin reais
+
+		escreva ("Quanto vale a arma?")
+		leia(preco_arma)
+		escreva ("Quanto vale a skin?")
+		leia(preco_skin)
+
+		 escreva("A arma e a skin juntas ficam "), preco arma + preco skin , "v-bucks")
+	}
+}
