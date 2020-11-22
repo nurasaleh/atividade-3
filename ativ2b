@@ -1,0 +1,22 @@
+programa
+{
+	/*Faça um algoritmo que calcule o valor desses
+itens se aplicado um desconto de 30%.
+
+*/
+funcao inicio()
+	{
+		real a , b , valor , desconto , totaldesconto
+
+		escreva "(Quanto vale a arma?")
+		leia(a)
+		escreva("Quanto vale a skin?")
+		leia(b)
+		valor = a + b
+		desconto = valor / 100
+		totaldesconto = desconto *30
+
+		 escreva ("A arma e a skin juntas focam  , "v-bucks com 30% de desconto" )
+		
+	}
+}
