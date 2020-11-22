@@ -1,0 +1,22 @@
+programa
+{
+/* 
+ O coronga transformou 2020 em um ano não muito fácil.
+ Mas vai melhorar. Faça um programa que calcule quantos meses faltam pra acabar 2021
+*/
+
+
+	funcao inicio()
+	{
+
+inteiro mesAtual
+
+escreva("em que mês você está: ")
+leia(mesAtual)
+
+escreva("faltam " , 12 - mesAtual , " mês(es) pra acabar o ano " )
+
+		
+		
+	}
+}
